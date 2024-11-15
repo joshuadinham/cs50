@@ -38,7 +38,7 @@ int get_grade_level(string text)
         {
             words += 1;
         }
-        else if ((65 <= text[i] && text[i] <= 90) || (97 <= text[i] && text[i] <= 122))
+        else if (('a' <= text[i] && text[i] <= 'z') || ('A' <= text[i] && text[i] <= 'Z'))
         {
             letters += 1;
         }
